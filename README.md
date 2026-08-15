@@ -1,16 +1,20 @@
 # REBIND Website
 
-Website giới thiệu thương hiệu REBIND.
+Website tĩnh của REBIND, sẵn sàng để upload lên GitHub và triển khai bằng GitHub Pages.
 
-## Chạy local
+## Cấu trúc
+
+- `index.html` — trang chính
+- `assets/` — hình ảnh/tài nguyên cục bộ của website
+
+## Chạy thử
+
 Mở `index.html` bằng trình duyệt.
 
-## Deploy GitHub Pages
-1. Tạo một repository trên GitHub.
-2. Upload toàn bộ nội dung thư mục này.
-3. Vào **Settings → Pages**.
-4. Chọn **Deploy from a branch**.
-5. Chọn branch `main` và thư mục `/ (root)`.
-6. Lưu lại và chờ GitHub Pages build website.
+## GitHub Pages
 
-> Website hiện dùng Google Fonts nên khi online cần có kết nối Internet để tải font.
+Upload toàn bộ thư mục này lên repository, sau đó vào:
+
+**Settings → Pages → Deploy from a branch**
+
+Chọn branch chứa `index.html` và thư mục `/ (root)`.
